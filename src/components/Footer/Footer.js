@@ -9,11 +9,11 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:8924025886">8924025886</LinkItem>
+          <LinkItem href="XXX">XXX</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:vedangpandeyy@gmail.com">vedangpandeyy@gmail.com</LinkItem>
+          <LinkItem href="XXX">XXX</LinkItem>
         </LinkColumn>
       </LinkList>
 
@@ -22,21 +22,20 @@ const Footer = () => {
           <Slogan></Slogan>
         </CompanyContainer>
 
-        <SocialIcons href="https://github.com/Vedang-P">
+        <SocialIcons href="https://x.com/Vedangggstfu">
           <AiFillGithub size="3rem" />
         </SocialIcons>
 
-        <SocialIcons href="https://www.linkedin.com/in/vedangpandey/">
+        <SocialIcons href="https://x.com/Vedangggstfu">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
 
-        <SocialIcons href="https://www.instagram.com/vedangggwtf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+        <SocialIcons href="https://x.com/Vedangggstfu">
           <AiFillInstagram size="3rem" />
         </SocialIcons>
       </SocialIconsContainer>
     </FooterWrapper>
   );
 };
-
 
 export default Footer;

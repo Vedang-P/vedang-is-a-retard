@@ -40,19 +40,18 @@ const Header = () => (
         </li>
       </Div2>
       <Div3>
-        <SocialIcons href="https://github.com/Vedang-P">
+        <SocialIcons href="https://x.com/Vedangggstfu">
         <AiFillGithub size ="3rem" />
         </SocialIcons>
-          <SocialIcons href="https://x.com/vedangstwt">
+          <SocialIcons href="https://x.com/Vedangggstfu">
         <AiFillTwitterCircle size ="3rem" />
         </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/vedangpandey/">
+          <SocialIcons href="https://x.com/Vedangggstfu">
         <AiFillLinkedin size ="3rem" />
         </SocialIcons>
-          <SocialIcons href="https://www.instagram.com/vedangggwtf?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <SocialIcons href="https://x.com/Vedangggstfu">
         <AiFillInstagram size ="3rem" />
         </SocialIcons>
-
       </Div3>
     </Container>
    

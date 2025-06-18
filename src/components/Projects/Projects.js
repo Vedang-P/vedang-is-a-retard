@@ -1,6 +1,6 @@
- import React from 'react';
+import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgContainer } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -13,7 +13,9 @@ const Projects = () => (
 <GridContainer>
   {projects.map(({id,image,title,description,tags,source,visit}) => (
     <BlogCard key={id}>
-      <Img src={image} />
+      <ImgContainer>
+        <Img src={image} />
+      </ImgContainer>
       <TitleContent>
         <HeaderThree title >{title}
         </HeaderThree>
@@ -30,8 +32,8 @@ const Projects = () => (
         </TagList>
       </div>
       <UtilityList>
-        <ExternalLinks href={visit}>Code</ExternalLinks>
-        <ExternalLinks href={source}>Source</ExternalLinks>
+        <ExternalLinks href="https://x.com/Vedangggstfu">Code</ExternalLinks>
+        <ExternalLinks href="https://x.com/Vedangggstfu">Source</ExternalLinks>
       </UtilityList>
     </BlogCard>
   ))}

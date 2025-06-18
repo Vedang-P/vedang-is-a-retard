@@ -23,13 +23,20 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: ${props => props.theme.colors.background2}80;
   border-radius: 12px;
   height: 144px;
   padding: 24px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  &:hover {
+    background: ${props => props.theme.colors.background2}90;
+    transform: translateY(-5px);
+  }
+
   @media ${props => props.theme.breakpoints.lg} {
     height: 210px;
-
   }
 
   @media ${props => props.theme.breakpoints.md} {
